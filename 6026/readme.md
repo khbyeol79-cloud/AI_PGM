@@ -1,75 +1,139 @@
-perplexity 
-Napkin 
-https://roadmap.sh/
+# 파이썬 컨테이너(Container)와 if문 정리
 
+## 1. 컨테이너(Container)란?
 
+여러 개의 데이터를 하나의 변수에 저장하는 자료형입니다.
 
+대표적인 컨테이너 - 리스트(List) - 튜플(Tuple) - 딕셔너리(Dictionary) -
+집합(Set)
 
-a = "Life is too short, You need Python"
+## 2. 리스트(List)
 
-print(a[3])
-print(a[-1])
+``` python
+numbers = [10, 20, 30]
+fruits = ["사과", "바나나", "포도"]
+```
 
-a[3] = e
-a[-1] = n 			 // 인덱싱 -(음수)는 파이썬만 존재
+``` python
+print(fruits[0])
+print(fruits[-1])
+```
 
+``` python
+fruits.append("딸기")
+fruits.remove("바나나")
+```
 
-print(a[0:3])
-print(a[-4:-1])         
+## 3. 튜플(Tuple)
 
-a[0:3] = Lif
-a[-4:-1] = tho
+``` python
+t = (10, 20, 30)
+```
 
+-   수정 불가능(Immutable)
+-   읽기 전용 데이터 저장
 
-print(a[:3])
-print(a[18:])
+## 4. 딕셔너리(Dictionary)
 
-a[:3] = Lif
-a[18:] =  You need Python
+``` python
+student = {
+    "name": "홍길동",
+    "age": 20
+}
 
+print(student["name"])
+```
 
-a=1 			literal or constant
-a=b			vaiable
-a=1+b		operator
-a=sum(1,2)		function
+## 5. 집합(Set)
 
+``` python
+s = {1, 2, 3}
+s.add(4)
+```
 
-list []
-tuple () - 내용변경불가
-set {} - 중복불가 순서없음
-dictionory {:} - 키:값 으로 구성
+-   중복 허용 안 함
+-   순서 없음
 
-리스트 - 정수,실수,문자,리스트 입력가능
-odd = [1,3,5,7,9]
-odd[0]  - 1이 출력
+## 6. if문
 
-리스트 생성법
-list1 = list()
-list2 = []
- 
-인덱스 슬라이싱 - [ start : stop : step ]
-ex [1:9:2] = 1,3,5,7
+``` python
+if 조건식:
+    실행문
+```
 
-sort() , sorted() 차이
-sort() 원본변경  /  sorted() 원본유지
+예제
 
+``` python
+age = 20
 
-제어문 - 실행의 순서를 제어
-선택문 : if , match~case
-반복문 : for , while ( do~while없음)
-무시문 : break, , continue
-복귀문 : return
+if age >= 19:
+    print("성인입니다.")
+```
 
+## 7. if \~ else
 
+``` python
+age = 15
 
+if age >= 19:
+    print("성인")
+else:
+    print("미성년자")
+```
 
+## 8. if \~ elif \~ else
 
+``` python
+score = 85
 
+if score >= 90:
+    print("A")
+elif score >= 80:
+    print("B")
+elif score >= 70:
+    print("C")
+else:
+    print("F")
+```
 
+## 9. 논리 연산자
 
+``` python
+and
+or
+not
+```
 
+``` python
+age = 20
+score = 80
 
+if age >= 19 and score >= 60:
+    print("합격")
+```
 
+## 10. 멤버십 연산자
 
+``` python
+fruits = ["사과", "바나나", "포도"]
 
+if "사과" in fruits:
+    print("사과가 있습니다.")
+```
 
+## 11. 실습 문제
+
+1.  정수 하나를 입력받아 양수인지 음수인지 출력하세요.
+2.  점수를 입력받아 A, B, C, F 학점을 출력하세요.
+3.  과일 리스트에 '사과'가 있는지 검사하세요.
+4.  딕셔너리에 저장된 이름과 나이를 출력하세요.
+
+## 핵심 정리
+
+-   List : 순서 O, 수정 O
+-   Tuple : 순서 O, 수정 X
+-   Dictionary : Key-Value 저장
+-   Set : 중복 X, 순서 X
+-   if, if\~else, if~elif~else
+-   and, or, not
+-   in, not in
