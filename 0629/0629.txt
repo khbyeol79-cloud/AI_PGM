@@ -1,0 +1,7 @@
+프로그래밍 에러
+1. syntax(구문) error
+2. run time error(exception)
+3. semantic error
+
+
+함수 = 변수+명령
