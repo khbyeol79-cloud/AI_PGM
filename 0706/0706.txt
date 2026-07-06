@@ -1,0 +1,3 @@
+클래스 설명 - https://runebook.dev/ko/docs/python/tutorial/classes/private-variables
+
+geeks for geeks
