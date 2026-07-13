@@ -1,1 +1,52 @@
-# AI_PGM
+# Python 및 인공지능 학습 목록 (2026)
+
+| 날짜 | 학습 내용 |
+|------|-----------|
+| **2026-06-22** | 문자열(String), 인덱싱(Indexing) |
+| **2026-06-26** | 자료형(Data Type) - 리스트(List), 튜플(Tuple), 집합(Set), 딕셔너리(Dictionary) |
+| **2026-06-29** | 제어문(Control Statement) - if, for, while, lambda |
+| **2026-07-01** | 함수(Function) 정의 - `def`, 매개변수(Parameter), 인수(Argument), `return` |
+| **2026-07-06** | 클래스(Class) 및 주요 라이브러리 - `tkinter`, `math`, `NumPy` |
+| **2026-07-07** | 데이터 분석 및 머신러닝 라이브러리 - `pandas`, `scikit-learn(sklearn)`, `load_iris`, `linear_model`, `matplotlib.pyplot`, `plotly.express`, `datetime` |
+
+---
+
+## 학습 순서
+
+```text
+문자열/인덱싱
+        ↓
+자료형
+        ↓
+제어문
+        ↓
+함수(def)
+        ↓
+클래스(OOP)
+        ↓
+기본 라이브러리
+(tkinter, math, NumPy)
+        ↓
+데이터 분석
+(pandas)
+        ↓
+머신러닝
+(sklearn, load_iris, linear_model)
+        ↓
+데이터 시각화
+(matplotlib, plotly.express)
+        ↓
+날짜 및 시간 처리
+(datetime)
+```
+
+---
+
+## 학습 진도
+
+- ✅ 2026-06-22 : 문자열, 인덱싱
+- ✅ 2026-06-26 : 자료형
+- ✅ 2026-06-29 : 제어문
+- ✅ 2026-07-01 : 함수(def)
+- ✅ 2026-07-06 : 클래스 및 주요 라이브러리
+- ✅ 2026-07-07 : 데이터 분석 및 머신러닝 라이브러리
