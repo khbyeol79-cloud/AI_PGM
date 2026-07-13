@@ -1,13 +1,13 @@
 # Python 및 인공지능 학습 목록 (2026)
 
 | 날짜 | 학습 내용 |
-|------|-----------|
-| **26-06-22** | 문자열(String), 인덱싱(Indexing) |
-| **26-06-26** | 자료형(Data Type) - 리스트(List), 튜플(Tuple), 집합(Set), 딕셔너리(Dictionary) |
-| **26-06-29** | 제어문(Control Statement) - if, for, while, lambda |
-| **26-07-01** | 함수(Function) 정의 - `def`, 매개변수(Parameter), 인수(Argument), `return` |
-| **26-07-06** | 클래스(Class) 및 주요 라이브러리 - `tkinter`, `math`, `NumPy` |
-| **26-07-07** | 데이터 분석 및 머신러닝 라이브러리 - `pandas`, `scikit-learn(sklearn)`, `load_iris`, `linear_model`, `matplotlib.pyplot`, `plotly.express`, `datetime` |
+|--------|-----------|
+| **2026-06-22** | 문자열(String), 인덱싱(Indexing) |
+| **2026-06-26** | 자료형(Data Type) - 리스트(List), 튜플(Tuple), 집합(Set), 딕셔너리(Dictionary) |
+| **2026-06-29** | 제어문(Control Statement) - if, for, while, lambda |
+| **2026-07-01** | 함수(Function) 정의 - `def`, 매개변수(Parameter), 인수(Argument), `return` |
+| **2026-07-06** | 클래스(Class) 및 주요 라이브러리 - `tkinter`, `math`, `NumPy` |
+| **2026-07-07** | 데이터 분석 및 머신러닝 라이브러리 - `pandas`, `scikit-learn(sklearn)`, `load_iris`, `linear_model`, `matplotlib.pyplot`, `plotly.express`, `datetime` |
 
 ---
 
