@@ -1,7 +1,7 @@
 # Python 및 인공지능 학습 목록 (2026)
 
 | 날짜 | 학습 내용 |
-|--------|-----------|
+|----------|-----------|
 | **2026-06-22** | 문자열(String), 인덱싱(Indexing) |
 | **2026-06-26** | 자료형(Data Type) - 리스트(List), 튜플(Tuple), 집합(Set), 딕셔너리(Dictionary) |
 | **2026-06-29** | 제어문(Control Statement) - if, for, while, lambda |
