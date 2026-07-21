@@ -1,0 +1,134 @@
+
+uv 패스 설정
+$Env:Path += "C:\Users\user\.local\bin"
+
+권한없을때
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser  
+
+uv 설정
+uv init py312 --python=3.12
+
+파이썬 설치리스트 확인
+uv python list
+
+파이썬 설치
+uv python install 3.12
+
+venv 
+uv venv
+
+venv 들어가기
+.venv\Scripts\activate
+
+라이브러리설치(venv 들어간상태에서)
+uv add jupyterlab ipykernel numpy pandas matplotlib
+
+
+conda생성
+conda create -n con312 python=3.12
+
+conda 활성화
+conda activate con3122
+
+라이브러리 설치
+conda install jupyter notebook
+
+conda 확인
+conda info --envs
+
+------------------------------
+
+비밀번호 변경
+passwd 
+
+root 비밀번호 변경
+sudo passwd root
+
+root 로그인
+su - root
+
+리눅스 업데이트 내역확인
+sudo apt update
+
+리눅스 업데이트 실행
+sudo apt upgrade
+
+ssh 기능 다운
+sudo apt install openssh-server
+
+ssh프로토콜 현재 상태확인
+sudo systemctl status ssh
+
+ssh프로토콜 실행
+sudo systemctl start ssh
+
+고정ip설정
+cd /etc/netplan
+sudo vi 50 => TAB
+sudo netplan apply
+
+
+vi명령어
+esc > 명령어 모드
+i ,a ,o O > 입력
+x, dd: > 삭제
+yy, p > 붙복
+h,j,k,l > 이동
+:wq > 종료
+
+:set number > 라인보기
+:set nonumber > 라인없애기
+
+:3 > 라인이동
+
+G > 마지막 라인
+
+:wq > 저장후 종료
+
+
+apache2 서버
+/var/www/html
+
+고정ip 설정
+/etc/netplan
+
+내용수정
+sudo nano /etc/netplan/50-cloud-init.yaml
+
+수정 적용
+sudo netplan apply
+
+curl 설치
+sudo apt install curl
+
+uv설치
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+설치후 소스적용
+source $HOME/.local/bin/env
+
+uv설치확인
+uv
+
+프로젝트 
+uv init pyprj --python=3.12
+
+파이썬 버전설치리스트
+uv python list
+
+3.12 파이썬 설치
+uv python install 3.12
+
+가상환경 
+uv venv --python=3.12
+
+가상환경 들어가기
+source .venv/bin/activate
+
+가상환경 나오기
+deactivate
+
+uv add ipykernel jupyterlab
+
+
+
