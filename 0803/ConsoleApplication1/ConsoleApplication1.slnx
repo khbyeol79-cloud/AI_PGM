@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/솔루션 항목/">
+    <File Path="donut" />
+  </Folder>
+  <Project Path="ConsoleApplication1/ConsoleApplication1.vcxproj" />
+</Solution>
